@@ -19,6 +19,6 @@ const copyMedia = () => ({
 });
 
 export default defineConfig({
-  base: "./",
+  base: "/portafolio/",
   plugins: [react(), copyMedia()]
 });
