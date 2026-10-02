@@ -367,6 +367,7 @@ title:"CISCO",
 
 es:[
 "Fundamentos de Redes Industriales",
+"Fundamentos de Python 1",
 "Hacker Ético",
 "CCNA: Redes Empresariales, Seguridad y Automatización",
 "CCNA: Fundamentos de Conmutación, Enrutamiento y Redes Inalámbricas"
@@ -374,23 +375,21 @@ es:[
 
 en:[
 "Industrial Networking Fundamentals",
+"Python Essentials 1",
 "Ethical Hacker",
 "CCNA: Enterprise Networking, Security and Automation",
 "CCNA: Switching, Routing and Wireless Essentials"
 ]
 },
-
 {
 title:"COURSERA",
 
 es:[
 "Emprendimientos Creativos",
-"Emprendimientos Creativos"
 ],
 
 en:[
 "Creative Entrepreneurship",
-"Creative Entrepreneurship"
 ]
 },
 
