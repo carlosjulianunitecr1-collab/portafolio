@@ -18,10 +18,10 @@ nav_evidence:"EVIDENCIA",
 nav_contact:"CONTACTO",
 
 hero_specialty:
-"INGENIERÍA · SOFTWARE · TECNOLOGÍA · ROBÓTICA",
+"INGENIERÍA · SOFTWARE · ROBÓTICA · IA · CIBERSEGURIDAD · MANUFACTURA · LOGÍSTICA",
 
 hero_description:
-"Amante de la tecnología, siempre buscando aprender, experimentar e innovar.",
+"Ingeniero en Sistemas enfocado en transformar ideas en soluciones reales mediante software, automatización, robótica, inteligencia artificial y tecnología aplicada a la industria.",
 
 explore:"EXPLORAR MI TRABAJO",
 cv:"VER MI CV",
@@ -37,7 +37,7 @@ specialty_intro:
 training_title:"FORMACIÓN COMPLEMENTARIA",
 
 training_intro:
-"Formación complementaria que he ido construyendo junto con mi carrera, principalmente en tecnología, programación, redes, ciberseguridad, automatización, robótica y negocios.",
+"Formación complementaria que he construido junto con mi carrera, principalmente en tecnología, programación, redes, sistemas operativos, ciberseguridad, automatización, robótica, manufactura y logística.",
 
 projects_title:"MIS PROYECTOS",
 
@@ -67,7 +67,7 @@ contact_title:"CONTACTO PROFESIONAL",
 connect:"CONECTEMOS",
 
 contact_text:
-"Si llegaste hasta aquí y quieres conocer más sobre mi trabajo, algún proyecto o simplemente hablar de tecnología, puedes encontrarme por cualquiera de estos medios.<br><br>Actualmente me interesa seguir desarrollándome en áreas como sistemas, automatización, robótica, software, infraestructura, manufactura, logística y tecnología.",
+"Si llegaste hasta aquí y quieres conocer más sobre mi trabajo, algún proyecto o simplemente hablar de tecnología, puedes encontrarme por cualquiera de estos medios.<br><br>Actualmente me interesa seguir desarrollándome en áreas como sistemas, automatización, robótica, software, infraestructura, inteligencia artificial, ciberseguridad, manufactura, logística y tecnología.",
 
 phone:"TELÉFONO",
 
@@ -77,7 +77,7 @@ whatsapp:"WHATSAPP",
 close:"CERRAR",
 
 footer:
-"INGENIERÍA · SOFTWARE · TECNOLOGÍA · ROBÓTICA"
+"INGENIERÍA · SOFTWARE · ROBÓTICA · IA · CIBERSEGURIDAD · MANUFACTURA · LOGÍSTICA"
 
 },
 
@@ -94,10 +94,10 @@ nav_evidence:"EVIDENCE",
 nav_contact:"CONTACT",
 
 hero_specialty:
-"ENGINEERING · SOFTWARE · TECHNOLOGY · ROBOTICS",
+"ENGINEERING · SOFTWARE · ROBOTICS · AI · CYBERSECURITY · MANUFACTURING · LOGISTICS",
 
 hero_description:
-"Technology enthusiast, always looking to learn, experiment and innovate.",
+"Computer Systems Engineer focused on transforming ideas into real solutions through software, automation, robotics, artificial intelligence and technology applied to industry.",
 
 explore:"EXPLORE MY WORK",
 cv:"VIEW MY RESUME",
@@ -143,7 +143,7 @@ contact_title:"PROFESSIONAL CONTACT",
 connect:"LET'S CONNECT",
 
 contact_text:
-"If you made it this far and would like to know more about my work, a project, or simply talk about technology, you can find me through any of these channels.<br><br>I am currently interested in continuing to develop in areas such as systems, automation, robotics, software, infrastructure, manufacturing, logistics and technology.",
+"If you made it this far and would like to know more about my work, a project, or simply talk about technology, you can find me through any of these channels.<br><br>I am currently interested in continuing to develop in areas such as systems, automation, robotics, software, infrastructure, artificial intelligence, cybersecurity, manufacturing, logistics and technology.",
 
 phone:"PHONE",
 
@@ -153,7 +153,7 @@ whatsapp:"WHATSAPP",
 close:"CLOSE",
 
 footer:
-"ENGINEERING · SOFTWARE · TECHNOLOGY · ROBOTICS"
+"ENGINEERING · SOFTWARE · ROBOTICS · AI · CYBERSECURITY · MANUFACTURING · LOGISTICS"
 
 }
 
@@ -175,14 +175,13 @@ es:[
 
 "Pero también me gusta la parte física de la tecnología. He trabajado con Arduino, Raspberry Pi, ESP32, sensores, actuadores, motores, relés y diferentes componentes electrónicos, buscando que el software pueda comunicarse con dispositivos y convertirse en algo tangible.",
 
-"Con el tiempo, estos proyectos me llevaron a explorar áreas como automatización, robótica, IoT, inteligencia artificial, visión artificial, Linux, servidores, redes, bases de datos, modelado 3D e impresión 3D.",
+"Con el tiempo, estos proyectos me llevaron a explorar áreas como automatización, robótica, IoT, inteligencia artificial, visión artificial, Linux, servidores, redes, bases de datos, sistemas operativos, ciberseguridad, modelado 3D e impresión 3D.",
 
 "Uno de los proyectos que más representa este camino es GreenHouse Buddy, un invernadero inteligente en el que integré sensores, electrónica, Arduino, Raspberry Pi, bases de datos, interfaces, automatización e inteligencia artificial.",
 
 "También desarrollé un sistema para un consultorio dental utilizado por cuatro médicos, donde trabajé con pacientes, citas, expedientes, recetas, radiografías y modelos 3D, además de integrar el sistema con hardware mediante un ESP32.",
 
-"Durante mi formación también he tenido la oportunidad de involucrarme en soporte técnico, mantenimiento, diagnóstico de problemas, requerimientos de TI, bases de datos, páginas internas, máquinas virtuales, microprocesadores, Linux y servidores.",
-
+"Durante mi formación también he tenido la oportunidad de involucrarme en soporte técnico, mantenimiento, diagnóstico de problemas, requerimientos de TI, bases de datos, páginas internas, máquinas virtuales, microprocesadores, sistemas operativos, Linux, servidores y ciberseguridad.",
 "Actualmente continúo aprendiendo y ampliando mi perfil con una Maestría en Logística y Manufactura, buscando combinar la tecnología que me gusta con áreas como la industria, la automatización, la manufactura y la logística.",
 
 "Este sitio es una forma de reunir todo ese recorrido: los proyectos que he creado, las cosas que he aprendido y algunas de las ideas que he conseguido convertir en algo real."
@@ -949,8 +948,7 @@ esTitle:"SERVIDOR PROPIO",
 
 enTitle:"PERSONAL SERVER",
 
-tags:"Servidores · Raspberry Pi · NAS · Redes · Almacenamiento · Infraestructura",
-
+tags:"Servidores · Linux · Sistemas Operativos · Redes · NAS · Almacenamiento · Ciberseguridad",
 es:`
 Mi servidor nació por una necesidad bastante sencilla.
 
@@ -966,8 +964,13 @@ Actualmente este servidor cuenta con su propia conexión a Internet.
 
 Dentro del rack tengo una Raspberry Pi 5, una Raspberry Pi Pico para tareas pequeñas, un NAS pequeño con seis discos duros y un switch de seis puertos.
 
-He tenido que aprender sobre Linux, redes, almacenamiento, conexiones, servicios, administración y distribución de tareas entre diferentes equipos.
+He tenido que aprender de manera práctica sobre Linux, Windows, sistemas operativos, redes, almacenamiento, conexiones, SSH, usuarios, permisos, servicios, administración de servidores y distribución de tareas entre diferentes equipos.
 
+También he trabajado en la seguridad de mi infraestructura, implementando medidas de protección, control de accesos, administración de permisos y monitoreo de servicios.
+
+Como parte de mi laboratorio de ciberseguridad, diseñé e implementé mi propio honeypot como mecanismo defensivo para detectar y registrar intentos de acceso no autorizado dentro de un entorno controlado.
+
+Esto me permite analizar conexiones sospechosas y estudiar el comportamiento de posibles intentos de acceso sin exponer directamente los servicios reales de mi infraestructura.
 Actualmente esta infraestructura realiza varias tareas y también forma parte de proyectos reales.
 
 Lo que comenzó como una computadora vieja para resolver un problema de almacenamiento terminó convirtiéndose en mi propio pequeño centro de servidores.
@@ -992,7 +995,13 @@ The current infrastructure has its own Internet connection.
 
 Inside the rack I have a Raspberry Pi 5, a Raspberry Pi Pico for small tasks, a small NAS with six hard drives and a six-port switch.
 
-I had to learn about Linux, networking, storage, connections, services, administration and task distribution between different systems.
+I have gained practical experience working with Linux, Windows, operating systems, networking, storage, connections, SSH, users, permissions, services, server administration and task distribution between different systems.
+
+I have also worked on securing my infrastructure through access control, permissions management, service monitoring and defensive security measures.
+
+As part of my cybersecurity laboratory, I designed and implemented my own honeypot as a defensive mechanism to detect and record unauthorized access attempts within a controlled environment.
+
+This allows me to analyze suspicious connections and study potential access attempts without directly exposing the real services of my infrastructure.
 
 This infrastructure now performs several tasks and is also part of real projects.
 
@@ -1272,7 +1281,7 @@ export const EXP = [
 ];
 
 /* Palabras clave de la sección "Sobre mí" (estaban en el HTML) */
-export const KEYWORDS = ["ENGINEERING", "SYSTEMS", "AI", "AUTOMATION", "TECHNOLOGY"];
+export const KEYWORDS = ["ENGINEERING", "SYSTEMS", "AI", "AUTOMATION", "ROBOTICS", "CYBERSECURITY", "MANUFACTURING", "LOGISTICS", "TECHNOLOGY"];
 
 /* Cantidades reales de evidencia */
 export const EVIDENCE_COUNT = { photos: 38, videos: 16, models: 12 };
