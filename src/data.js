@@ -15,6 +15,7 @@ nav_training:"FORMACIÓN",
 nav_projects:"PROYECTOS",
 nav_gallery:"GALERÍA",
 nav_evidence:"EVIDENCIA",
+nav_plans:"PLANOS TÉCNICOS",
 nav_contact:"CONTACTO",
 
 hero_specialty:
@@ -91,6 +92,7 @@ nav_training:"TRAINING",
 nav_projects:"PROJECTS",
 nav_gallery:"GALLERY",
 nav_evidence:"EVIDENCE",
+nav_plans:"TECHNICAL DRAWINGS",
 nav_contact:"CONTACT",
 
 hero_specialty:

@@ -1527,3 +1527,119 @@ ul {
     animation: none;
   }
 }
+
+/* =========================================================
+   PLANOS TÉCNICOS
+========================================================= */
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 3.5rem;
+  background: var(--line);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.plan-card {
+  position: relative;
+  background: var(--bg);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition:
+    transform 0.35s ease,
+    background 0.35s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Vista previa del plano */
+.plan-preview {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: #f4f4f4;
+  border-bottom: 1px solid var(--line);
+}
+
+.plan-preview img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  transition: transform 0.45s ease;
+}
+
+.plan-card:hover .plan-preview img {
+  transform: scale(1.03);
+}
+
+.plan-number {
+  padding: 1.5rem 2rem 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
+.plan-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  margin: 1rem 2rem 0;
+}
+
+.plan-body {
+  padding: 0.8rem 2rem 0;
+  flex: 1;
+}
+
+.plan-body h3 {
+  margin: 0 0 0.7rem;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.plan-body p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.plan-download {
+  margin: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  transition: color 0.3s ease;
+}
+
+.plan-download:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 800px) {
+  .plans-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-preview {
+    height: 260px;
+  }
+}

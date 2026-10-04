@@ -54,6 +54,7 @@ const NAV = [
   ["proyectos", "nav_projects"],
   ["galeria", "nav_gallery"],
   ["evidencia", "nav_evidence"],
+  ["planos", "nav_plans"],
   ["especialidad", "nav_specialty"],
   ["formacion", "nav_training"],
   ["contacto", "nav_contact"]
@@ -727,6 +728,124 @@ function Evidence({ onImage }) {
 }
 
 /* =========================================================
+   PLANOS TÉCNICOS
+========================================================= */
+
+const TECHNICAL_PLANS = [
+  {
+    file: "planos/subestacion-electrica.dwg",
+    preview: "planos/preview/torre-transmision-230kv.png",
+    es: "Subestación eléctrica",
+    en: "Electrical Substation",
+    categoryEs: "Ingeniería eléctrica · Infraestructura",
+    categoryEn: "Electrical engineering · Infrastructure"
+  },
+  {
+    file: "planos/torre-transmision-230kv.dwg",
+    preview: "planos/preview/subestacion-electrica.png",
+    es: "Torre de transmisión 230 kV",
+    en: "230 kV Transmission Tower",
+    categoryEs: "Alta tensión · Energía",
+    categoryEn: "High voltage · Energy"
+  },
+  {
+    file: "planos/banco-transformadores.dwg",
+    preview: "planos/preview/banco-transformadores.png",
+    es: "Banco de transformadores",
+    en: "Transformer Bank",
+    categoryEs: "Sistemas de potencia · Transformación",
+    categoryEn: "Power systems · Transformation"
+  },
+  {
+    file: "planos/proyecto-transformacion-aceites.dwg",
+    preview: "planos/preview/proyecto-transformacion-aceites.png",
+    es: "Proyecto de transformación de aceites",
+    en: "Oil Transformation Project",
+    categoryEs: "Procesos industriales · Ingeniería",
+    categoryEn: "Industrial processes · Engineering"
+  },
+  {
+    file: "planos/pid-planta-industrial.dwg",
+    preview: "planos/preview/pid-planta-industrial.png",
+    es: "P&ID de planta industrial",
+    en: "Industrial Plant P&ID",
+    categoryEs: "Procesos · Instrumentación",
+    categoryEn: "Processes · Instrumentation"
+  }
+];
+
+function TechnicalPlans() {
+  const { lang } = useLang();
+
+  return (
+    <section id="planos" className="sec">
+      <div className="wrap">
+        <SectionHead
+          title={lang === "es" ? "Planos técnicos" : "Technical drawings"}
+          intro={
+            lang === "es"
+              ? "Documentación CAD relacionada con ingeniería eléctrica, energía, procesos industriales e infraestructura."
+              : "CAD documentation related to electrical engineering, energy, industrial processes and infrastructure."
+          }
+        />
+
+        <div className="plans-grid">
+          {TECHNICAL_PLANS.map((plan, i) => (
+            <Reveal
+              as="article"
+              className="plan-card"
+              key={plan.file}
+              delay={stagger(i, 3)}
+            >
+              <div className="plan-preview">
+                <img
+                  src={plan.preview}
+                  alt={lang === "es" ? plan.es : plan.en}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+
+              <div className="plan-number">
+                {pad2(i + 1)}
+              </div>
+
+              <div className="plan-body">
+                <h3>
+                  {lang === "es" ? plan.es : plan.en}
+                </h3>
+
+                <p>
+                  {lang === "es"
+                    ? plan.categoryEs
+                    : plan.categoryEn}
+                </p>
+              </div>
+
+              <a
+                className="plan-download"
+                href={plan.file}
+                download
+                aria-label={
+                  lang === "es"
+                    ? `Descargar ${plan.es}`
+                    : `Download ${plan.en}`
+                }
+              >
+                <span>
+                  {lang === "es" ? "DESCARGAR DWG" : "DOWNLOAD DWG"}
+                </span>
+
+                <ArrowUpRight size={17} strokeWidth={1.6} />
+              </a>
+            </Reveal>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+/* =========================================================
    ESPECIALIDAD / ÁREAS
 ========================================================= */
 
@@ -1061,6 +1180,7 @@ export default function App() {
           <Experience />
           <Projects onOpen={setProject} />
           <Evidence onImage={setImage} />
+          <TechnicalPlans />
           <Specialty />
           <Training />
           <Contact onPhone={() => setPhone(true)} />
