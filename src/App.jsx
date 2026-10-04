@@ -1084,6 +1084,15 @@ const TECHNICAL_PLANS = [
     categoryEs: "Procesos · Instrumentación",
     categoryEn: "Processes · Instrumentation"
   }
+  ,{
+    file: `${BASE_URL}planos/quimica.dwxmz`,
+    preview: `${BASE_URL}planos/preview/quimica.png`,
+    es: "Plano de química",
+    en: "Chemical Process Plan",
+    categoryEs: "Procesos industriales · Química",
+    categoryEn: "Industrial processes · Chemistry"
+  }
+
 ];
 
 function TechnicalPlans() {
